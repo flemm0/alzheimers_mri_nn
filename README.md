@@ -1,6 +1,6 @@
-# Predicting dementia stage using MRI from Alzheimers patients using
-neural networks
-Flemming Wu
+# Predicting dementia stage using MRI from Alzheimers patients using neural networks
+
+## Flemming Wu
 
 [Link](https://www.kaggle.com/datasets/sachinkumar413/alzheimer-mri-dataset)
 to data set
@@ -339,17 +339,6 @@ pd.crosstab(y_test, y_pred.argmax(axis=1), rownames=['Actual'], colnames=['Predi
 ```
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-&#10;    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-&#10;    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 
 | Predicted | 1   | 2   | 3    |
 |-----------|-----|-----|------|
